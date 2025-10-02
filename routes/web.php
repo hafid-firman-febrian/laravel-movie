@@ -1,5 +1,5 @@
 <?php
-
+// ini file routing
 // use App\Http\Middleware\CheckMembership;
 
 use GuzzleHttp\Middleware;
