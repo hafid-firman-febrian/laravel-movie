@@ -17,7 +17,6 @@ Route::get('/movie', function () use ($movies) {
     return $movies;
 });
 
-
 Route::group(
     [
         'middleware' => ['isAuth'],
@@ -33,8 +32,7 @@ Route::group(
             $movies[] = [
                 'title' => request('title'),
                 'genre' => request('genre'),
-                'year' => request('year'),
-                'rating' => request('rating')
+                'year' => request('year')
             ];
             return $movies;
         });
