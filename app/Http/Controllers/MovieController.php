@@ -14,7 +14,8 @@ class MovieController extends Controller
             $this->movies[] = [
                 'title' => 'Movie Controller ' . $i,
                 'year' => '2022',
-                'genre' => 'action'
+                'genre' => 'action',
+                'rating' => 'rating'
 
             ];
         }
